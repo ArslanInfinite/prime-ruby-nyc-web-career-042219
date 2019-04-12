@@ -1,5 +1,5 @@
 def prime?(number)
-    if number < 2
+    if number < 0 or number == 0  or number == 1
       return false
     else
     (2..number - 1).each do |x|
