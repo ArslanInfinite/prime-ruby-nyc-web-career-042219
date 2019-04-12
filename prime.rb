@@ -6,7 +6,6 @@ def prime?(number)
         (number % x) == 0
       end
     end
-    return true
 end
 
 # def prime?(num)
